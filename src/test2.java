@@ -9,9 +9,9 @@ public class test2 {
 
 
         System.out.printf("%d\n", i);
-        System.out.printf("%10d\n", i);
-        System.out.printf("%-10d\n", i);
-        System.out.printf("%010d\n", i);
+        System.out.printf("%10d\n", i); //  ________10  --> 오른쪽정렬
+        System.out.printf("%-10d\n", i);//  10________  --> 왼쪽정렬
+        System.out.printf("%010d\n", i);// 0000000010
         System.out.printf("%o\n", i);
         System.out.printf("%x\n", i);
         System.out.printf("%X\n", i);
@@ -79,7 +79,7 @@ public class test2 {
 
 
          /* System.out.printf("%a", i);
-      System.out.printf("%k", i);
+        System.out.printf("%k", i);
         System.out.printf("%q", i);*/
 
     }
